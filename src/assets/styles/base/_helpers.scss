@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.clean-link {
+    text-decoration: none;
+    color: inherit
+}
+
+.clean-list {
+    list-style: none;
+}
+
+.container {
+    max-width: 950px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 48px;
+    margin: 0 auto;
+}
